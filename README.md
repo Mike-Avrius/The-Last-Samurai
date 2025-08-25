@@ -2,8 +2,6 @@
 
 A thrilling 2D top-down action game built with MonoGame and .NET 8, featuring intense combat, enemy AI, and survival gameplay.
 
-![Game Screenshot](Content/Sprites/BackGrounds/GameZoneBackGround.jpg)
-
 ## 🎯 Game Overview
 
 TopDownFinalPR is an action-packed survival game where you control a warrior fighting against waves of enemies. Navigate through dangerous zones, shoot arrows at your foes, and survive as long as possible while managing your health and ammunition.
