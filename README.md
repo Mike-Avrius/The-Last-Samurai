@@ -1,10 +1,10 @@
-# TopDownFinalPR 🎮
+# The Last Samurai 🎮
 
 A thrilling 2D top-down action game built with MonoGame and .NET 8, featuring intense combat, enemy AI, and survival gameplay.
 
 ## 🎯 Game Overview
 
-TopDownFinalPR is an action-packed survival game where you control a warrior fighting against waves of enemies. Navigate through dangerous zones, shoot arrows at your foes, and survive as long as possible while managing your health and ammunition.
+The Last Samurai is an action-packed survival game where you control a warrior fighting against waves of enemies. Navigate through dangerous zones, shoot arrows at your foes, and survive as long as possible while managing your health and ammunition.
 
 ### ✨ Key Features
 
@@ -46,7 +46,7 @@ Survive as long as possible while defeating enemies. Each enemy defeated increas
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd TopDownFinalPR
+   cd The Last Samurai
    ```
 
 2. **Build and run**
@@ -91,7 +91,7 @@ dotnet publish -c Release -r linux-x64 --self-contained true -p:PublishTrimmed=t
 ## 📁 Project Structure
 
 ```
-TopDownFinalPR/
+The Last Samurai/
 ├── Content/                     # Game assets and resources
 │   ├── Audio/                  # Sound effects and music
 │   ├── Fonts/                  # Game typography
@@ -116,7 +116,7 @@ TopDownFinalPR/
 │   └── TimerManager.cs        # Game timing system
 └── Distribution/
     ├── build-all.sh           # Multi-platform build script
-    └── TopDownFinalPR.app/    # macOS application bundle
+    └── The Last Samurai.app/    # macOS application bundle
 ```
 
 ## 🎨 Game Assets
@@ -153,18 +153,18 @@ The game uses a modern component-based architecture:
 ## 📦 Distribution
 
 ### Windows
-- **Executable**: `TopDownFinalPR.exe`
+- **Executable**: `The Last Samurai.exe`
 - **Dependencies**: `SDL2.dll`, `openal.dll`, `Content/` folder
 - **Location**: `bin/Release/net8.0/win-x64/publish/`
 
 ### macOS
-- **App Bundle**: `TopDownFinalPR.app/`
-- **DMG File**: `TopDownFinalPR.dmg`
+- **App Bundle**: `The Last Samurai.app/`
+- **DMG File**: `The Last Samurai.dmg`
 - **Dependencies**: `libSDL2-2.0.0.dylib`, `libopenal.dylib`, `Content/` folder
 - **Location**: `bin/Release/net8.0/osx-x64/publish/`
 
 ### Linux
-- **Executable**: `TopDownFinalPR`
+- **Executable**: `The Last Samurai`
 - **Dependencies**: `Content/` folder
 - **Location**: `bin/Release/net8.0/linux-x64/publish/`
 
@@ -233,6 +233,6 @@ This project is provided as-is for educational and development purposes. Feel fr
 
 ---
 
-**Enjoy playing TopDownFinalPR!** 🎮✨
+**Enjoy playing The Last Samurai!** 🎮✨
 
 *Last updated: December 2024*
